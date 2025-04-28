@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="Main Logo.png" class="logo" alt="Logo" style="width:200px;"/>
+    </header>
+    <div class="form-container">
+      <h2>Login</h2>
+      <form id="loginForm" novalidate>
+        <input type="text" id="username" placeholder="Username, email & phone number" required/>
+        <p class="error" id="usernameError" style="display:none;"></p>
+
+        <input type="password" id="password" placeholder="Password" required/>
+        <p class="error" id="passwordError" style="display:none;"></p>
+
+        <a href="forgot.html">Forgot Password?</a>
+        <button type="submit" class="login-btn">Login</button>
+      </form>
+      <p class="signup-link">
+        You don't have an account? <a href="Signup.html">Sign Up</a>
+      </p>
+    </div>
+  </div>
+
+  <!-- هنا الـ module script لـ login.js -->
+  <script type="module" src="./login.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,417 @@
+/* signin */
+header .img{
+    margin-top: 10px;
+    width: 200px;
+    
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6497D6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.form-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#gender{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: rgb(192, 188, 188);
+    
+}
+
+.gender-section {
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.radio-label {
+    margin-right: 15px;
+}
+
+button {
+    width: 100%;
+    background: #03FA06;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #009933;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    display: none;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+.logo {
+    width: 100px;
+}
+header {
+    text-align: center;
+    margin: 0;
+}
+h2 {
+    margin-bottom: 20px;
+    color: #6497D6;
+    font-size: 24px;
+} 
+/* .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+} */
+
+
+
+/* the log in screen */
+
+
+/* /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} *
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   background-color: #6497D6;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+} */
+
+
+
+
+
+/* .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #6497D6;
+    font-size: 24px;
+} */ 
+
+/* /* form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+} */
+
+.forgot-password {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot-password a {
+    color: #6c63ff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* .login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #4cff5e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #3acc4a;
+} */
+
+/* .signup-link {
+    margin-top: 15px;
+    color: #888;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #6c63ff;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+} */
+
+/* forgot password */
+
+  .forgot-password-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .enter-the-code {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  
+  
+  form input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  #resend{
+        margin-top: 10px;
+    background-color: rgb(195, 183, 183);
+    text-align: center  ;
+  }
+  
+  .reset-pass{
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  a {text-decoration: none; }
+
+
+  #st{
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+
+  }
+  #city{
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  #state{
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+  }
+  #gender{
+    padding: 10px;
+    color:rgba(3, 2, 2, 0.416);
+
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    margin: -8px 0 8px 0;
+}
+
+.error {
+    border: 1px solid red;
+  }
+  
+  p.error {
+    color: red;
+    font-size: 0.9em;
+    margin: 5px 0 0;
+  }
+
+  
+
+
+
+
+
+
+
+  General Reset
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+.set {
+    background-color: #6ab0f3; /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_set {
+    display: flex;
+    width: 90%;
+    max-width: 900px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section */
+.left-section {
+    flex: 1;
+    padding: 30px;
+}
+
+.title {
+    font-size: 22px;
+    color: #2b6db3;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Right Section */
+.right-section {
+    flex: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    resize: none;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.char-counter {
+    font-size: 12px;
+    color: #888;
+    text-align: right;
+}
+
+.upload-box {
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+
+input[type="file"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+#previewImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.next-button {
+    background-color: #00d265;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.next-button:hover {
+    background-color: #00b857;
+}
